@@ -1,0 +1,117 @@
+body {
+  background-image: url(pancakes\ .jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: sans-serif;
+  padding: 20px;
+}
+#menu {
+    background-color: rgba(214, 174, 134, 0.823);
+    width: 80%;
+    margin: auto;
+    margin-right: 10%;
+    max-width: 400px;
+    padding: 27px;
+  }
+  hr {
+    height: 2px;
+    background-color: rgb(87, 59, 2);
+    border-color: rgb(87, 59, 2);
+  }
+  h1,
+  h2 {
+    text-align: center;
+    font-family: cursive;
+  }
+  h1 {
+    font-size: 45px;
+  }
+  h2 {
+    font-size: 30px;
+    text-align: left;
+  }
+  img {
+    width: 25px;
+    height: 25px;
+  }
+  #established {
+    text-align: center;
+    font-style: italic;
+    margin-top: -10px;
+    border: solid;
+    border-color: antiquewhite;
+  }
+  #title {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    gap: 10px;
+  }
+  .icon {
+    display: block;
+    margin: 0 auto;
+    margin-top: -15px;
+    margin-bottom: 25px;
+  }
+  .item p {
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  .dish,
+  .milkshake,
+  .sides {
+    text-align: left;
+    width: 74%;
+  }
+  .price {
+    text-align: right;
+    width: 24%;
+  }
+  .dish,
+  .milkshake,
+  .sides,
+  .price {
+    justify-content: space-between;
+  }
+  #bottom-line {
+    margin-top: 20px;
+  }
+  footer p {
+    text-align: center;
+    font-size: 14px;
+  }
+  a {
+    color: black;
+  }
+  @media only screen and (max-width: 600px) {
+    #menu {
+      width: 50%;
+      height: 75%;
+      padding-top: 5px;
+      padding-bottom: 8px;
+    }
+    body {
+      font-size: 0.8em;
+      background-size: cover;
+      padding: 10px;
+    }
+    h1 {
+      font-size: 2em;
+    }
+    h2 {
+      font-family: cursive;
+      font-size: 1.2em;
+    }
+    .item p {
+      margin-top: 2px;
+    }
+    .icon {
+      width: 15px;
+      height: 15px;
+    }
+    footer p {
+      font-size: 0.6em;
+    }
+  }
